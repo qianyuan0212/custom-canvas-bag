@@ -1,0 +1,20 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://qianyuan0212.github.io/custom-canvas-bag/sitemap.xml
+
+# Disallow admin and api paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Allow important pages
+Allow: /pricing
+Allow: /studio
+Allow: /examples
+Allow: /faq
+
+# Crawl-delay
+Crawl-delay: 10 
