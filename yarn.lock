@@ -1236,9 +1236,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"custom-canvas-bags@workspace:.":
+"custom-canvas-bag@workspace:.":
   version: 0.0.0-use.local
-  resolution: "custom-canvas-bags@workspace:."
+  resolution: "custom-canvas-bag@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.21.0"
     "@mantine/carousel": "npm:^7.17.4"
