@@ -1,0 +1,22 @@
+{
+  "name": "Custom Canvas Bag - Design Your Own Canvas Bag",
+  "short_name": "Custom Canvas Bag",
+  "description": "Create your own personalized canvas bag with our easy-to-use online design tool",
+  "start_url": "/custom-canvas-bag/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6b46c1",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/custom-canvas-bag/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/custom-canvas-bag/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
