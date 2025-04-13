@@ -30,10 +30,15 @@ jobs:
       - name: Build
         run: |
           yarn build
+          echo "Build directory contents:"
           ls -la dist/
+          echo "Checking for index.html:"
+          ls -la dist/index.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          publish_branch: gh-pages
+          force_orphan: true
