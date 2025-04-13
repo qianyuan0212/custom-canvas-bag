@@ -5,6 +5,9 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/custom-canvas-bag/",
+  css: {
+    postcss: "./postcss.config.cjs",
+  },
   build: {
     outDir: "dist",
     sourcemap: true,

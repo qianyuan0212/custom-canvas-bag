@@ -1,0 +1,121 @@
+.root {
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(135deg, #6b46c1 0%, #9333ea 100%);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.steps {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.step {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.step:hover {
+  transform: translateY(-5px);
+}
+
+.stepIcon {
+  color: #6b46c1;
+}
+
+.studio {
+  padding: 80px 0;
+}
+
+.studioPreview {
+  margin-top: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.studioImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.examples {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.exampleCategory {
+  margin-bottom: 4rem;
+}
+
+.exampleItem {
+  transition: transform 0.2s ease;
+}
+
+.exampleItem:hover {
+  transform: translateY(-5px);
+}
+
+.pricing {
+  padding: 80px 0;
+}
+
+.pricingCard {
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.pricingCard:hover {
+  transform: translateY(-5px);
+}
+
+.pricingCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.pricingCard li {
+  margin: 0.5rem 0;
+  color: #4b5563;
+}
+
+.faq {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.faqGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faqItem {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}

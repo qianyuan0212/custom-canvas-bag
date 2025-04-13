@@ -896,6 +896,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tabler/icons-react@npm:^3.31.0":
+  version: 3.31.0
+  resolution: "@tabler/icons-react@npm:3.31.0"
+  dependencies:
+    "@tabler/icons": "npm:3.31.0"
+  peerDependencies:
+    react: ">= 16"
+  checksum: 10c0/aceefe1b6c12a2e64921900f49c09c0c24bcd837dfb3d4274914065e33a5175944f1e25ce9a80d110272e5ae0fefc24062a38f1ec75a4ec79c63d40acb9d1d12
+  languageName: node
+  linkType: hard
+
+"@tabler/icons@npm:3.31.0":
+  version: 3.31.0
+  resolution: "@tabler/icons@npm:3.31.0"
+  checksum: 10c0/03fcfff0b705e1474030acee2ff0523bfa1fda7a29a33d031a9fd8e3b52ecc2e0380f9cf5e81bd054b30dc0acdb819b1e08ab746805be8d660934a08b2c3545e
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.20.5":
   version: 7.20.5
   resolution: "@types/babel__core@npm:7.20.5"
@@ -934,6 +952,13 @@ __metadata:
   dependencies:
     "@babel/types": "npm:^7.20.7"
   checksum: 10c0/5386f0af44f8746b063b87418f06129a814e16bb2686965a575e9d7376b360b088b89177778d8c426012abc43dd1a2d8ec3218bfc382280c898682746ce2ffbd
+  languageName: node
+  linkType: hard
+
+"@types/cookie@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@types/cookie@npm:0.6.0"
+  checksum: 10c0/5b326bd0188120fb32c0be086b141b1481fec9941b76ad537f9110e10d61ee2636beac145463319c71e4be67a17e85b81ca9e13ceb6e3bb63b93d16824d6c149
   languageName: node
   linkType: hard
 
@@ -1209,6 +1234,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cookie@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "cookie@npm:1.0.2"
+  checksum: 10c0/fd25fe79e8fbcfcaf6aa61cd081c55d144eeeba755206c058682257cb38c4bd6795c6620de3f064c740695bb65b7949ebb1db7a95e4636efb8357a335ad3f54b
+  languageName: node
+  linkType: hard
+
 "cross-spawn@npm:^7.0.6":
   version: 7.0.6
   resolution: "cross-spawn@npm:7.0.6"
@@ -1245,6 +1277,7 @@ __metadata:
     "@mantine/core": "npm:^7.17.4"
     "@mantine/dropzone": "npm:^7.17.4"
     "@mantine/hooks": "npm:^7.17.4"
+    "@tabler/icons-react": "npm:^3.31.0"
     "@types/react": "npm:^19.0.10"
     "@types/react-dom": "npm:^19.0.4"
     "@vitejs/plugin-react": "npm:^4.3.4"
@@ -1258,6 +1291,7 @@ __metadata:
     postcss-simple-vars: "npm:^7.0.1"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
+    react-router-dom: "npm:^7.5.0"
     vite: "npm:^6.2.0"
   languageName: unknown
   linkType: soft
@@ -2595,6 +2629,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:^7.5.0":
+  version: 7.5.0
+  resolution: "react-router-dom@npm:7.5.0"
+  dependencies:
+    react-router: "npm:7.5.0"
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: 10c0/30fccb394869cf316d005367d55162401e650fdd146c53273e218ca7c7e42e539130ee663d0c5fbf546005bea6ee9bc5ce91b6698fd24b9282a2d13c6d951609
+  languageName: node
+  linkType: hard
+
+"react-router@npm:7.5.0":
+  version: 7.5.0
+  resolution: "react-router@npm:7.5.0"
+  dependencies:
+    "@types/cookie": "npm:^0.6.0"
+    cookie: "npm:^1.0.1"
+    set-cookie-parser: "npm:^2.6.0"
+    turbo-stream: "npm:2.4.0"
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: 10c0/fc1b4ed3eeb615f40727b81dfab7469429a0b662bff5f91434966751d48ce4b470d9627dcbc93dad9b1a535a0f9bd1b2267d8ff88ca4e636535bcbfe7d76cea3
+  languageName: node
+  linkType: hard
+
 "react-style-singleton@npm:^2.2.2, react-style-singleton@npm:^2.2.3":
   version: 2.2.3
   resolution: "react-style-singleton@npm:2.2.3"
@@ -2772,6 +2836,13 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 10c0/fd603a6fb9c399c6054015433051bdbe7b99a940a8fb44b85c2b524c4004b023d7928d47cb22154f8d054ea7ee8597f586605e05b52047f048278e4ac56ae958
+  languageName: node
+  linkType: hard
+
+"set-cookie-parser@npm:^2.6.0":
+  version: 2.7.1
+  resolution: "set-cookie-parser@npm:2.7.1"
+  checksum: 10c0/060c198c4c92547ac15988256f445eae523f57f2ceefeccf52d30d75dedf6bff22b9c26f756bd44e8e560d44ff4ab2130b178bd2e52ef5571bf7be3bd7632d9a
   languageName: node
   linkType: hard
 
@@ -2958,6 +3029,13 @@ __metadata:
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
+  languageName: node
+  linkType: hard
+
+"turbo-stream@npm:2.4.0":
+  version: 2.4.0
+  resolution: "turbo-stream@npm:2.4.0"
+  checksum: 10c0/e68b2569f1f16e6e9633d090c6024b2ae9f0e97bfeacb572451ca3732e120ebbb546f3bc4afc717c46cb57b5aea6104e04ef497f9912eef6a7641e809518e98a
   languageName: node
   linkType: hard
 
